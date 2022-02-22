@@ -62,7 +62,7 @@ console.log(S);
 console.log(P/S);
 
 console.log("Задача 3");
-let C=24, F=98.6;
+let C=prompt("Введите градусы в Цельсиях",24); F=prompt("Введите градусы в Фаренгейтах",98.6);
 
 console.log(C + '\xB0' + "C " +"соответсвует " + ((C*9/5)+32)+"F\xB0");
 console.log(F + '\xB0' + "F " +"соответсвует " + ((F-32)*5/9)+"C\xB0");
@@ -77,7 +77,7 @@ if (year % 4 == 0 && year % 100 != 0)
 }
 
 console.log("Задача 5");
-let t1=10, t2=8;
+let t1=prompt(" Введите первое число"), t2=prompt(" Введите второе число");
 console.log(t1,t2);
 if (t1==10 || t2==10 || t1+t2==10)
 {
@@ -131,7 +131,7 @@ i++;
 console.log(tree);
 
 console.log("Задача 9");
-let n1=13,n2=0,n3=-2,b=0;
+let n1=prompt(" Введите первое число"),n2=prompt(" Введите второе число"),n3=prompt(" Введите третье число"),b=0;
 
 if (n1>n2){
     b=n1;
@@ -151,7 +151,7 @@ if (n1>n2){
 console.log(n1,n2,n3);
 
 console.log("Задача 10");
-let m1=12,m2=-5,m3=24,m4=2,m5=0,w=-10000;
+let m1=prompt(" Введите первое число"),m2=prompt(" Введите второе число"),m3=prompt(" Введите третье число"),m4=prompt(" Введите четвертое число"),m5=prompt(" Введите пятое число");
 console.log(m1,m2,m3,m4,m5);
 if (m1>m2 && m1>m3 && m1>m4 && m1>m5){
     console.log(m1);
